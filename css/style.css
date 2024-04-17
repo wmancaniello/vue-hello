@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 60%;
+}
+
+.my_btn {
+    width: 30%;
+    padding: 20px;
+    font-size: 1.5rem;
+    background-color: lightblue;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}

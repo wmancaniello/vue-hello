@@ -10,18 +10,15 @@
 
     <!-- Custom Style -->
     <link rel="stylesheet" href="./css/style.css" />
-
   </head>
 
   <body>
-
-
-    <div id="“app”">
-
+    <div id="app">
+      <h1>{{ firstApproach }}</h1>
+      <img :class="divClass" :src="imageName" :alt="imageAlt" />
+      <button @click="showImage" class="my_btn">Controlliamo</button>
     </div>
-
 
     <script src="./js/script.js"></script>
   </body>
-  
 </html>
